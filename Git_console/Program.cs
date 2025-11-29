@@ -4,11 +4,11 @@ using System;
 static class Program{
     static void Main (string[] arg)
     {
-        TestMetod();
+        PrintUserId(1);
     }
-    static void TestMetod()
+    static void PrintUserId(int id)
     {
-        Console.WriteLine("New metod");
+        Console.WriteLine(id);
     }
 }
 
